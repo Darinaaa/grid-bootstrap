@@ -1,0 +1,191 @@
+.green-bg {
+	position: relative;
+}
+.green-bg:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 68px;
+	height: 21px;
+	background-color: #7beec7;
+	z-index: -1;
+}
+.container-fluid{
+background-image: url(../img/api.jpg);
+width: 1300px;
+height: 500px;
+text-align: center;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+
+}
+.text-center{
+font-family: Montserrat;
+color:  rgba(96, 96, 110, 0.5);
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+}
+.bread-crumbs {
+font-family: Montserrat;
+color: rgb(96, 96, 110));
+font-size: 14px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+width: 20%;
+margin: 0 auto;
+}
+.text-center1{
+font-family: Montserrat;
+color:  rgb(96, 96, 110);
+font-size: 30px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+margin-top: 80px;
+}
+.text-center2{
+font-family: 'OpenSans';
+color:  rgb(96, 96, 110);
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+margin-bottom: 80px;
+}
+.description li{
+display: inline-block;
+}
+.description{
+	width: 120%;
+	padding-left: 0px;
+}
+.green-bg{
+	margin-top: 120px;
+}
+.text-center3{
+font-family: Montserrat;
+color:   rgb(96, 96, 110);
+font-size: 30px;/
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+margin-top: 100px;
+}
+.text-center4{
+	font-family: OpenSans;
+color:  rgba(96, 96, 110, 0.5);
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+margin-bottom: 100px;
+
+}
+.container-fluid1{
+	background-color:  #7beec7;
+
+height: 330px;
+
+}
+.footer{
+font-family: Montserrat;
+color:  #ffffff;
+font-size: 30px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+}
+.button{
+background-color:  #ffffff;
+width: 165px;
+height: 49px;
+font-family: Montserrat;
+color:  #7beec7;
+font-size: 14px;
+font-weight: 700;
+text-align: center;
+padding: 10px;
+border-radius: 2px;
+}
+.bottom1{
+background-color:  #ffffff;
+width: 556px;
+height: 230px;
+}
+.text{
+font-family: Montserrat;
+color:  rgba(96, 96, 110, 0.5);
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+}
+.text1{
+font-family: 'OpenSans';
+color:  #999999;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+.slogan {
+	color: #fff;
+	font-weight: 700;
+}
+.slogan__title {
+	font-size: 34px;
+	font-weight: 700;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.slogan__btn {
+	background-color: #fff;
+	padding: 20px 35px;
+	color: #7beec7;
+}
+.slogan__btn:hover {
+	color: #7beec7;
+	text-decoration: none;
+}
+.email-form {
+	background-color: #fff;
+	margin-top: 50px;
+	height: 230px;
+	border-radius: 5px;
+}
+.email-form__title {
+	font-size: 24px;
+	font-weight: 700;
+	color: rgb(96, 96, 110);
+	width: 70%;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 20px;
+}
+.email-form__descr {
+	color: #999999;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+.email-form__input {
+	width: 350px;
+	border: 1px solid #999999;
+	height: 50px;
+	position: relative;
+	font-size: 24px;
+	padding-left: 10px;
+}
+.email-form__btn {
+	background-color: #7beec7;
+	border: none;
+	height: 50px;
+	width: 135px;
+	position: absolute;
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+}
